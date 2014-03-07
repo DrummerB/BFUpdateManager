@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		ECA8B99518CA22E200908819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA8B99418CA22E200908819 /* Foundation.framework */; };
-		ECA8B99A18CA22E200908819 /* BFUpdateManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ECA8B99918CA22E200908819 /* BFUpdateManager.h */; };
-		ECA8B99C18CA22E200908819 /* BFUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B99B18CA22E200908819 /* BFUpdateManager.m */; };
-		ECA8B9A318CA22E200908819 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA8B9A218CA22E200908819 /* XCTest.framework */; };
-		ECA8B9A418CA22E200908819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA8B99418CA22E200908819 /* Foundation.framework */; };
-		ECA8B9A618CA22E200908819 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA8B9A518CA22E200908819 /* UIKit.framework */; };
-		ECA8B9A918CA22E200908819 /* libBFUpdateManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA8B99118CA22E200908819 /* libBFUpdateManager.a */; };
-		ECA8B9AF18CA22E200908819 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECA8B9AD18CA22E200908819 /* InfoPlist.strings */; };
-		ECA8B9B118CA22E200908819 /* BFUpdateManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B9B018CA22E200908819 /* BFUpdateManagerTests.m */; };
+		ECA8B9BF18CA22FC00908819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA8B99418CA22E200908819 /* Foundation.framework */; };
+		ECA8B9C118CA22FC00908819 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA8B9C018CA22FC00908819 /* CoreGraphics.framework */; };
+		ECA8B9C218CA22FC00908819 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA8B9A518CA22E200908819 /* UIKit.framework */; };
+		ECA8B9C818CA22FC00908819 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECA8B9C618CA22FC00908819 /* InfoPlist.strings */; };
+		ECA8B9CA18CA22FC00908819 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B9C918CA22FC00908819 /* main.m */; };
+		ECA8B9CE18CA22FC00908819 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B9CD18CA22FC00908819 /* AppDelegate.m */; };
+		ECA8B9D118CA22FC00908819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA8B9CF18CA22FC00908819 /* Main.storyboard */; };
+		ECA8B9D418CA22FC00908819 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B9D318CA22FC00908819 /* ViewController.m */; };
+		ECA8B9D618CA22FC00908819 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA8B9D518CA22FC00908819 /* Images.xcassets */; };
+		ECA8B9F118CA231C00908819 /* libBFUpdateManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA8B99118CA22E200908819 /* libBFUpdateManager.a */; };
+		ECA8B9F618CA232A00908819 /* BFUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B9F318CA232A00908819 /* BFUpdate.m */; };
+		ECA8B9F718CA232A00908819 /* BFUpdateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA8B9F518CA232A00908819 /* BFUpdateManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ECA8B9A718CA22E200908819 /* PBXContainerItemProxy */ = {
+		ECA8B9EF18CA231800908819 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ECA8B98918CA22E200908819 /* Project object */;
 			proxyType = 1;
@@ -35,7 +39,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				ECA8B99A18CA22E200908819 /* BFUpdateManager.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +48,24 @@
 		ECA8B99118CA22E200908819 /* libBFUpdateManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBFUpdateManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA8B99418CA22E200908819 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECA8B99818CA22E200908819 /* BFUpdateManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BFUpdateManager-Prefix.pch"; sourceTree = "<group>"; };
-		ECA8B99918CA22E200908819 /* BFUpdateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFUpdateManager.h; sourceTree = "<group>"; };
-		ECA8B99B18CA22E200908819 /* BFUpdateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFUpdateManager.m; sourceTree = "<group>"; };
-		ECA8B9A118CA22E200908819 /* BFUpdateManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFUpdateManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA8B9A218CA22E200908819 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		ECA8B9A518CA22E200908819 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		ECA8B9AC18CA22E200908819 /* BFUpdateManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BFUpdateManagerTests-Info.plist"; sourceTree = "<group>"; };
-		ECA8B9AE18CA22E200908819 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ECA8B9B018CA22E200908819 /* BFUpdateManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFUpdateManagerTests.m; sourceTree = "<group>"; };
+		ECA8B9BE18CA22FB00908819 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA8B9C018CA22FC00908819 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECA8B9C518CA22FC00908819 /* Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo-Info.plist"; sourceTree = "<group>"; };
+		ECA8B9C718CA22FC00908819 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECA8B9C918CA22FC00908819 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA8B9CB18CA22FC00908819 /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
+		ECA8B9CC18CA22FC00908819 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECA8B9CD18CA22FC00908819 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECA8B9D018CA22FC00908819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECA8B9D218CA22FC00908819 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECA8B9D318CA22FC00908819 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECA8B9D518CA22FC00908819 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECA8B9F218CA232A00908819 /* BFUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFUpdate.h; sourceTree = "<group>"; };
+		ECA8B9F318CA232A00908819 /* BFUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFUpdate.m; sourceTree = "<group>"; };
+		ECA8B9F418CA232A00908819 /* BFUpdateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFUpdateManager.h; sourceTree = "<group>"; };
+		ECA8B9F518CA232A00908819 /* BFUpdateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFUpdateManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +77,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECA8B99E18CA22E200908819 /* Frameworks */ = {
+		ECA8B9BB18CA22FB00908819 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECA8B9A918CA22E200908819 /* libBFUpdateManager.a in Frameworks */,
-				ECA8B9A318CA22E200908819 /* XCTest.framework in Frameworks */,
-				ECA8B9A618CA22E200908819 /* UIKit.framework in Frameworks */,
-				ECA8B9A418CA22E200908819 /* Foundation.framework in Frameworks */,
+				ECA8B9F118CA231C00908819 /* libBFUpdateManager.a in Frameworks */,
+				ECA8B9C118CA22FC00908819 /* CoreGraphics.framework in Frameworks */,
+				ECA8B9C218CA22FC00908819 /* UIKit.framework in Frameworks */,
+				ECA8B9BF18CA22FC00908819 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				ECA8B99618CA22E200908819 /* BFUpdateManager */,
-				ECA8B9AA18CA22E200908819 /* BFUpdateManagerTests */,
+				ECA8B9C318CA22FC00908819 /* Demo */,
 				ECA8B99318CA22E200908819 /* Frameworks */,
 				ECA8B99218CA22E200908819 /* Products */,
 			);
@@ -92,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				ECA8B99118CA22E200908819 /* libBFUpdateManager.a */,
-				ECA8B9A118CA22E200908819 /* BFUpdateManagerTests.xctest */,
+				ECA8B9BE18CA22FB00908819 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +116,7 @@
 				ECA8B99418CA22E200908819 /* Foundation.framework */,
 				ECA8B9A218CA22E200908819 /* XCTest.framework */,
 				ECA8B9A518CA22E200908819 /* UIKit.framework */,
+				ECA8B9C018CA22FC00908819 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,8 +124,10 @@
 		ECA8B99618CA22E200908819 /* BFUpdateManager */ = {
 			isa = PBXGroup;
 			children = (
-				ECA8B99918CA22E200908819 /* BFUpdateManager.h */,
-				ECA8B99B18CA22E200908819 /* BFUpdateManager.m */,
+				ECA8B9F218CA232A00908819 /* BFUpdate.h */,
+				ECA8B9F318CA232A00908819 /* BFUpdate.m */,
+				ECA8B9F418CA232A00908819 /* BFUpdateManager.h */,
+				ECA8B9F518CA232A00908819 /* BFUpdateManager.m */,
 				ECA8B99718CA22E200908819 /* Supporting Files */,
 			);
 			path = BFUpdateManager;
@@ -125,20 +141,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ECA8B9AA18CA22E200908819 /* BFUpdateManagerTests */ = {
+		ECA8B9C318CA22FC00908819 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				ECA8B9B018CA22E200908819 /* BFUpdateManagerTests.m */,
-				ECA8B9AB18CA22E200908819 /* Supporting Files */,
+				ECA8B9CC18CA22FC00908819 /* AppDelegate.h */,
+				ECA8B9CD18CA22FC00908819 /* AppDelegate.m */,
+				ECA8B9CF18CA22FC00908819 /* Main.storyboard */,
+				ECA8B9D218CA22FC00908819 /* ViewController.h */,
+				ECA8B9D318CA22FC00908819 /* ViewController.m */,
+				ECA8B9D518CA22FC00908819 /* Images.xcassets */,
+				ECA8B9C418CA22FC00908819 /* Supporting Files */,
 			);
-			path = BFUpdateManagerTests;
+			path = Demo;
 			sourceTree = "<group>";
 		};
-		ECA8B9AB18CA22E200908819 /* Supporting Files */ = {
+		ECA8B9C418CA22FC00908819 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ECA8B9AC18CA22E200908819 /* BFUpdateManagerTests-Info.plist */,
-				ECA8B9AD18CA22E200908819 /* InfoPlist.strings */,
+				ECA8B9C518CA22FC00908819 /* Demo-Info.plist */,
+				ECA8B9C618CA22FC00908819 /* InfoPlist.strings */,
+				ECA8B9C918CA22FC00908819 /* main.m */,
+				ECA8B9CB18CA22FC00908819 /* Demo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,23 +186,23 @@
 			productReference = ECA8B99118CA22E200908819 /* libBFUpdateManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		ECA8B9A018CA22E200908819 /* BFUpdateManagerTests */ = {
+		ECA8B9BD18CA22FB00908819 /* Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECA8B9B718CA22E200908819 /* Build configuration list for PBXNativeTarget "BFUpdateManagerTests" */;
+			buildConfigurationList = ECA8B9E918CA22FC00908819 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
-				ECA8B99D18CA22E200908819 /* Sources */,
-				ECA8B99E18CA22E200908819 /* Frameworks */,
-				ECA8B99F18CA22E200908819 /* Resources */,
+				ECA8B9BA18CA22FB00908819 /* Sources */,
+				ECA8B9BB18CA22FB00908819 /* Frameworks */,
+				ECA8B9BC18CA22FB00908819 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ECA8B9A818CA22E200908819 /* PBXTargetDependency */,
+				ECA8B9F018CA231800908819 /* PBXTargetDependency */,
 			);
-			name = BFUpdateManagerTests;
-			productName = BFUpdateManagerTests;
-			productReference = ECA8B9A118CA22E200908819 /* BFUpdateManagerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = Demo;
+			productName = Demo;
+			productReference = ECA8B9BE18CA22FB00908819 /* Demo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,6 +219,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = ECA8B98818CA22E200908819;
 			productRefGroup = ECA8B99218CA22E200908819 /* Products */;
@@ -203,17 +227,19 @@
 			projectRoot = "";
 			targets = (
 				ECA8B99018CA22E200908819 /* BFUpdateManager */,
-				ECA8B9A018CA22E200908819 /* BFUpdateManagerTests */,
+				ECA8B9BD18CA22FB00908819 /* Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ECA8B99F18CA22E200908819 /* Resources */ = {
+		ECA8B9BC18CA22FB00908819 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECA8B9AF18CA22E200908819 /* InfoPlist.strings in Resources */,
+				ECA8B9D618CA22FC00908819 /* Images.xcassets in Resources */,
+				ECA8B9C818CA22FC00908819 /* InfoPlist.strings in Resources */,
+				ECA8B9D118CA22FC00908819 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,35 +250,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECA8B99C18CA22E200908819 /* BFUpdateManager.m in Sources */,
+				ECA8B9F718CA232A00908819 /* BFUpdateManager.m in Sources */,
+				ECA8B9F618CA232A00908819 /* BFUpdate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECA8B99D18CA22E200908819 /* Sources */ = {
+		ECA8B9BA18CA22FB00908819 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECA8B9B118CA22E200908819 /* BFUpdateManagerTests.m in Sources */,
+				ECA8B9D418CA22FC00908819 /* ViewController.m in Sources */,
+				ECA8B9CE18CA22FC00908819 /* AppDelegate.m in Sources */,
+				ECA8B9CA18CA22FC00908819 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ECA8B9A818CA22E200908819 /* PBXTargetDependency */ = {
+		ECA8B9F018CA231800908819 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ECA8B99018CA22E200908819 /* BFUpdateManager */;
-			targetProxy = ECA8B9A718CA22E200908819 /* PBXContainerItemProxy */;
+			targetProxy = ECA8B9EF18CA231800908819 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ECA8B9AD18CA22E200908819 /* InfoPlist.strings */ = {
+		ECA8B9C618CA22FC00908819 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ECA8B9AE18CA22E200908819 /* en */,
+				ECA8B9C718CA22FC00908819 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECA8B9CF18CA22FC00908819 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA8B9D018CA22FC00908819 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -352,41 +389,45 @@
 			};
 			name = Release;
 		};
-		ECA8B9B818CA22E200908819 /* Debug */ = {
+		ECA8B9EA18CA22FC00908819 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BFUpdateManager/BFUpdateManager-Prefix.pch";
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "BFUpdateManagerTests/BFUpdateManagerTests-Info.plist";
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		ECA8B9B918CA22E200908819 /* Release */ = {
+		ECA8B9EB18CA22FC00908819 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BFUpdateManager/BFUpdateManager-Prefix.pch";
-				INFOPLIST_FILE = "BFUpdateManagerTests/BFUpdateManagerTests-Info.plist";
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -410,11 +451,11 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		ECA8B9B718CA22E200908819 /* Build configuration list for PBXNativeTarget "BFUpdateManagerTests" */ = {
+		ECA8B9E918CA22FC00908819 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECA8B9B818CA22E200908819 /* Debug */,
-				ECA8B9B918CA22E200908819 /* Release */,
+				ECA8B9EA18CA22FC00908819 /* Debug */,
+				ECA8B9EB18CA22FC00908819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
