@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   }
 
   s.source_files  = 'BFUpdateManager/*.{h,m}'
-  s.public_header_files = 'BFUpdateManager/BFUpdateManager.h'
+  #s.public_header_files = 'BFUpdateManager/BFUpdateManager.h'
   
   s.requires_arc = true
 
